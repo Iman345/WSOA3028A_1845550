@@ -13,5 +13,6 @@ btn.onclick = function()
         if(mySrc === "Pictures/Eyes.png" ) 
         {
           myImage.setAttribute ('src',"Pictures/SukiStrawberry.png" )
+          
         }
 }
