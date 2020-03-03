@@ -7,7 +7,7 @@ btn.onclick = function()
 {
     
     
-        let myImage = document.querySelector('img');
+    let myImage = document.querySelector('img');
 
         let mySrc = myImage.getAttribute('src');
         if(mySrc === "Pictures/Eyes.png" ) 
