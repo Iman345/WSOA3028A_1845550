@@ -2,14 +2,16 @@ console.log(1);
 
 const btn = document.querySelector('button');
 
-function random(number)
-{
-  return Math.floor(Math.random() * (number+1));
-}
 
 btn.onclick = function() 
 {
-  const rndCol = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
-  document.body.style.backgroundColor = rndCol;
-  console.log("Button works");
+    
+    
+        let myImage = document.querySelector('img');
+
+        let mySrc = myImage.getAttribute('src');
+        if(mySrc === "Pictures/Eyes.png" ) 
+        {
+          myImage.setAttribute ('src',"Pictures/SukiStrawberry.png" )
+        }
 }
