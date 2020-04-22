@@ -17,6 +17,6 @@ btn.onclick = function()
         }
 }
 
-function prevPage() {     
-  window.history.back()   
-  }
+document.getElementById('backButton').addEventListener('click', () => {
+  history.back();
+});
