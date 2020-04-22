@@ -1,7 +1,7 @@
 console.log(1);
 
 const btn = document.querySelector('button');
-
+const backbtn = document.querySelector('backButton');
 
 btn.onclick = function() 
 {
@@ -16,3 +16,7 @@ btn.onclick = function()
           
         }
 }
+
+function prevPage() {     
+  window.history.back()   
+  }
