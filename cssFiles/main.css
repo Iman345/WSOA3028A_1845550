@@ -10,3 +10,42 @@ body {
     color: white;
   }
   
+  .menu-select{ 
+      background-color: black;
+
+    font-family: Arial;
+    font: 1rem ariel;
+    color: white;
+   
+  }
+
+  
+    ul {
+        background-color: black;
+        list-style-type: none;
+        margin: 2px;
+        padding: 1px;
+        overflow: hidden;
+        
+    }
+    
+    li {
+        float: left;
+    }
+    
+    li a {
+        display: block;
+        color: white;
+        text-align: left;
+        padding: 15px 17px;
+        text-decoration: none;
+    
+    }
+    
+    li a:hover {
+        background-color:grey;
+    }
+    
+    nav{
+            width: 100vw;
+        }
