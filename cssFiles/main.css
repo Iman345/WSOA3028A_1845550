@@ -18,11 +18,11 @@ p{
 }
 image{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+ 
+    margin: 0 auto;
     }
 
-    
+
   header{
       background-color: black;
   }
