@@ -15,14 +15,17 @@ h2{
 }
 p{
     text-align: center;
+    display: block;
+    margin-left: 0px;
+    padding: 150px;
 }
 picture{
-    
+    text-align: center;
         display: block;
         margin-left: auto;
         margin-right: auto;
         }
-    }
+    
 
 
   header{
