@@ -2,7 +2,7 @@
 body {
     background: black;
     font-family: Arial;
-    font: 2rem ariel;
+    font: 1.5rem ariel;
     color: white;
     
   }
@@ -17,7 +17,7 @@ p{
     text-align: center;
     display: block;
     margin-left: 0px;
-    padding: 150px;
+    padding: 50px;
 }
 picture{
     text-align: center;
@@ -40,7 +40,7 @@ picture{
       background-color: black;
 
     font-family: Arial;
-    font: 1rem ariel;
+    font: 1rem;
     color: white;
    
   }
@@ -76,11 +76,6 @@ picture{
             width: 100vw;
         }
 
-image{ 
-    display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 
 
