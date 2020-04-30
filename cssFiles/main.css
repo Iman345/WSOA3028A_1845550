@@ -17,9 +17,11 @@ p{
     text-align: center;
     display: block;
  
-    margin-left: 20px;
- margin-right: 20px;
-    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+       padding: 10px;
+    letter-spacing: 2px;
+      word-spacing: 2px;
 }
 picture{
     text-align: center;
