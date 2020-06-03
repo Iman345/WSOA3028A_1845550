@@ -17,8 +17,7 @@ p{
     text-align: justify;
     display: block;
  
-    margin-left: 200px;
-    margin-right: 200px;
+   margin:auto;
        padding: 10px;
     letter-spacing: 2px;
       word-spacing: 2px;
@@ -80,7 +79,7 @@ picture{
             width: 100vw;
         }
 
-
+ 
 
 
 
@@ -88,7 +87,8 @@ article{
     text-align: center;
 }
 
-
-
+button{
+    text-align: center;
+}
 
         
