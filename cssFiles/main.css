@@ -16,8 +16,15 @@ body {
 h2{
     text-align: center;
 }
+article{
+    
+    width: 80%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 1em 2em 2em;
+}
 p{
-    text-align: center;
+    
     display: block;
  
     margin: 0;
@@ -87,13 +94,7 @@ picture{
 
 
 
-article{
-    text-align: center;
-    width: 80%;
-    max-width: 700px;
-    margin: 0 auto;
-    padding: 1em 2em 2em;
-}
+
 
 button{
   text-align: center;
