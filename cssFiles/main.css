@@ -140,5 +140,51 @@ button{
     background-color:grey;
   }
 
+  #scrollbutton {
+  
+    visibility: hidden;
+    width: 5rem;
+    height: 3rem;
+    text-align: center;
+    border-radius: 1rem;
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    display: inline-block;
+    background-color: black;
+    
+    transition: background-color .5s, 
+      opacity .7s, visibility .7s;
+    opacity: 0;
+   
+   
+  }
+  
+  
+  #scrollbutton::after 
+  {
+    font-size: 3rem;
+    line-height: 50px;
+    font-family: Arial;
+    
+    color:black;
+    content: "\f077";
+  }
+
+  #scrollbutton:hover
+   {
+    cursor: pointer;
+    background-color: grey;
+  }
+  #scrollbutton:active
+   {
+    background-color: white;
+  }
+  #scrollbutton.show 
+  {
+    opacity: 1;
+    visibility: visible;
+  }
+
 
         

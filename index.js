@@ -2,7 +2,7 @@ console.log(1);
 
 const btn = document.querySelector('button');
 const backbtn = document.querySelector('backButton');
-
+const scrollbtn = document.querySelector('scrollbtn');
 
 btn.onclick = function() 
 {
@@ -17,6 +17,29 @@ btn.onclick = function()
           
         }
 }
+
+document.getElementById('backButton').addEventListener('click', () => {
+  history.back();
+});
+
+
+var scrollbtn = $('#scrollbutton');
+
+$(window).scroll(function() 
+{
+  if ($(window).scrollTop() > 400) {
+    scrollbtn.addClass('show');
+  } 
+  
+  else {
+    scrollbtn.removeClass('show');
+  }
+});
+
+scrollbtn.on('click', function(up) {
+  up.preventDefault();
+  $('html, body').animate({scrollTop:0}, '');
+});
 
 
 
