@@ -37,7 +37,7 @@ $(window).scroll(function()
 
 scrollbtn.on('click', function(up) {
   up.preventDefault();
-  $('html, body').animate({scrollTop:0}, '');
+  $('html, body').animate({scrollTop:0}, '400');
 });
 
 
