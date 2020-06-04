@@ -86,6 +86,10 @@ picture{
 
 article{
     text-align: center;
+    width: 80%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 1em 2em 2em;
 }
 
 button{
