@@ -2,7 +2,6 @@ console.log(1);
 
 const btn = document.querySelector('button');
 const backbtn = document.querySelector('backButton');
-const scrollbtn = document.querySelector('scrollbtn');
 
 btn.onclick = function() 
 {
