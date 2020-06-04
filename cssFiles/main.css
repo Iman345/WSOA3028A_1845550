@@ -151,7 +151,7 @@ button{
     bottom: 3rem;
     right: 3rem;
     display: inline-block;
-    background-color: black;
+    background-color:white;
     
     transition: background-color .5s, 
       opacity .7s, visibility .7s;
@@ -167,7 +167,7 @@ button{
     line-height: 50px;
     font-family: Arial;
     
-    color:black;
+    color:blue;
     content: "\f077";
   }
 
@@ -178,7 +178,7 @@ button{
   }
   #scrollbutton:active
    {
-    background-color: white;
+    background-color:blue;
   }
   #scrollbutton.show 
   {
