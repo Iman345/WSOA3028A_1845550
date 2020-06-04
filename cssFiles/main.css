@@ -86,18 +86,13 @@ picture{
     }
     
     li a:hover {
+        cursor: pointer;
         background-color:grey;
     }
     
     nav{
             width: 100vw;
         }
-
- 
-
-
-
-
 
 button{
   text-align: center;
@@ -115,5 +110,35 @@ button{
   text-decoration: none;
   
 }
+.scrollnav {
+   
+    font: 1.5rem;
+    font-family: Arial;
+    color: black;
+    float: right;
+    width: 20%;
+  }
+  
+  
+  .scrollnav ul {
+    background-color:white;
+    padding: 1.5rem;
+    border-radius: 5px;
+  }
+  
+  .scrollnav li {
+    list-style: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.75rem;
+    
+  }
+  
+  .scrollnav li:hover {
+
+    cursor: pointer;
+    background-color:grey;
+  }
+
 
         
