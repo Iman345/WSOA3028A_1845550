@@ -83,10 +83,12 @@ picture{
     }
     
     li a {
-        display: block;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
         color:black;
         padding: 1em 1.5em;
-        position: relative;
+        /*position: relative;*/
         text-align: left;
         padding: 15px 17px;
         text-decoration: none;
@@ -100,6 +102,15 @@ picture{
         cursor: pointer;
         background-color:grey;
     }
+    li a:hover {
+
+        cursor: pointer;
+        background-color:grey;
+    }
+    
+    nav{
+            width: 100vw;
+       }
     a {
         display: block;
         color:black;
@@ -115,15 +126,7 @@ picture{
         cursor: pointer;
         background-color: grey;
     }
-    li a:hover {
 
-        cursor: pointer;
-        background-color:grey;
-    }
-    
-    nav{
-            width: 100vw;
-        }
 
 button{
   text-align: center;
