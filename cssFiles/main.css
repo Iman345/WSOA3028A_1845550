@@ -3,16 +3,9 @@ body {
     background: black;
     margin: 0 auto;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     font-family: Arial;
     font: 1.5rem ariel;
     color: white;
-  
-        
-      
 
     
   }
@@ -89,7 +82,7 @@ picture{
         padding: 1em 1.5em;
         position: relative;
         text-align: left;
-        
+        padding: 15px 17px;
         text-decoration: none;
         background-color:white;
   box-shadow: 0 5px 0 grey;
