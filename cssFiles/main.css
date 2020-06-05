@@ -1,5 +1,5 @@
 
-section{
+.pictureclass{
     text-align: center;
 }
 body {
@@ -110,6 +110,10 @@ picture{
         text-decoration: none;
         background-color:white;
         box-shadow: 0 5px 0 grey;
+    }
+    a:hover{
+        cursor: pointer;
+        background-color: grey;
     }
     li a:hover {
 
