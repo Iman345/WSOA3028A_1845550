@@ -78,14 +78,19 @@ picture{
     
     li a {
         display: block;
-        color: white;
+        color:black;
+        padding: 1em 1.5em;
+        position: relative;
         text-align: left;
-        padding: 15px 17px;
+        
         text-decoration: none;
+        background-color:white;
+  box-shadow: 0 5px 0 grey;
     
     }
     
     li a:hover {
+
         cursor: pointer;
         background-color:grey;
     }
@@ -110,6 +115,23 @@ button{
   text-decoration: none;
   
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .scrollnav {
    
     font: 1.5rem;
@@ -133,7 +155,6 @@ button{
     padding-bottom: 0.75rem;
     
   }
-  
   .scrollnav li:hover {
 
     cursor: pointer;
@@ -167,7 +188,7 @@ button{
     line-height: 50px;
     font-family: Arial;
     
-    color:blue;
+    color:black;
     content: "\f077";
   }
 
@@ -178,7 +199,7 @@ button{
   }
   #scrollbutton:active
    {
-    background-color:blue;
+    background-color:white;
   }
   #scrollbutton.show 
   {
