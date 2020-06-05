@@ -9,7 +9,9 @@ body {
 
     
   }
-
+section{
+    text-align: center;
+}
   h1{
       text-align: center;
   }
@@ -92,6 +94,22 @@ picture{
     
     }
     
+    li a:hover {
+
+        cursor: pointer;
+        background-color:grey;
+    }
+    a {
+        display: block;
+        color:black;
+        padding: 1em 1.5em;
+        position: relative;
+        text-align: left;
+        padding: 15px 17px;
+        text-decoration: none;
+        background-color:white;
+        box-shadow: 0 5px 0 grey;
+    }
     li a:hover {
 
         cursor: pointer;
