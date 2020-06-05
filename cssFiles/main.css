@@ -1,4 +1,7 @@
 
+section{
+    text-align: center;
+}
 body {
     background: black;
     margin: 0 auto;
@@ -9,9 +12,7 @@ body {
 
     
   }
-section{
-    text-align: center;
-}
+
   h1{
       text-align: center;
   }
@@ -105,7 +106,7 @@ picture{
         padding: 1em 1.5em;
         position: relative;
         text-align: left;
-        padding: 15px 17px;
+        
         text-decoration: none;
         background-color:white;
         box-shadow: 0 5px 0 grey;
