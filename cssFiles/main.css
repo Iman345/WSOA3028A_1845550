@@ -13,12 +13,10 @@ body {
     
   }
 
-  h1{
+  h1,h2,h3,h4,h5,h6{
       text-align: center;
   }
-h2{
-    text-align: center;
-}
+
 article{
     display: flex;
     flex-direction: column;
@@ -34,7 +32,7 @@ p{
     margin: 0;
       
     letter-spacing: 2px;
-      word-spacing: 2px;
+    word-spacing: 2px;
 
     margin-bottom: 20px;
     padding: 5px;
@@ -60,17 +58,18 @@ picture{
   }
   
   .menu-select{ 
-      background-color: black;
-
+    
+    display: flex;
+    justify-content: left;
     font-family: Arial;
     font: 1rem;
-    color: white;
+    
    
   }
 
   
     ul {
-        background-color: black;
+    
         list-style-type: none;
         margin: 2px;
         padding: 1px;
@@ -90,7 +89,7 @@ picture{
         padding: 1em 1.5em;
         position: relative;
         text-align: left;
-        padding: 15px 17px;
+      
         text-decoration: none;
         background-color:white;
   box-shadow: 0 5px 0 grey;
@@ -145,24 +144,6 @@ button{
   
 
 }
-
-hr{color: black;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .scrollnav {
    
@@ -238,6 +219,37 @@ hr{color: black;}
     opacity: 1;
     visibility: visible;
   }
+
+
+footer{
+    padding: 1rem;
+            margin-top: 2rem;
+            text-align: left;
+            background:grey;
+            color: white;
+}
+@media (min-width: 576px) {
+
+    
+}
+@media (min-width: 768px) {
+
+  
+}
+@media screen and (max-width: 700px) {
+    .menu-select {
+      flex-direction: column;
+
+  }
+}
+@media (min-width: 992px) { 
+
+  
+}
+@media (min-width: 1200px) { 
+ 
+}
+
 
 
         
