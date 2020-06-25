@@ -35,7 +35,8 @@ p{
       
     letter-spacing: 2px;
     word-spacing: 2px;
-
+    
+    margin-right:20px;
     margin-bottom: 20px;
     padding: 5px;
 }
@@ -242,6 +243,14 @@ footer{
         }
     body{
         font: 0.5rem;
+    }
+    p{
+      font-size:1rem;
+      line-height:1rem
+    
+    }
+    header{
+      font-size:0.7rem
     }
      h1,h2,h3,h4,h5,h6{
     font: 1rem;
