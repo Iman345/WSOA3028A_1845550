@@ -1,282 +1,288 @@
 
 html{
-    font-family:Arial;
-   
+  font-family:Arial;
+ 
 }
 .pictureclass{
-    text-align: center;
+  text-align: center;
 }
 body {
-    background: black;
-    margin: 0 auto;
-    
-    padding: 1.5rem;
-    font-family: Arial;
-    color: white;
+  background: black;
+  margin: 0 auto;
+  
+  padding: 1.5rem;
+  font-family: Arial;
+  color: white;
 }
 
-  h1,h2,h3,h4,h5,h6{
-      text-align: center;
-  }
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+}
 
 article{
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    max-width: 700px;
-    margin: 0 auto;
-    padding: 1em 2em 2em;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 1em 2em 2em;
 }
 p{
+  
+  display: block;
+
+  margin: 0;
     
-    display: block;
- 
-    margin: 0;
-      
-    letter-spacing: 2px;
-    word-spacing: 2px;
-    
-    margin-right:20px;
-    margin-bottom: 20px;
-    padding: 5px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  
+  margin-right:20px;
+  margin-bottom: 20px;
+  padding: 5px;
 }
 picture{
-    text-align: center;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        max-width: 100%;
-        }
-    
-
-
-  header{
-      background-color: black;
-  }
-  h1 {
-    background-color: black;
-    color: white;
-  }
-  
-  .menu-select{ 
-    
-    display: flex;
-    justify-content: left;
-    font-family: Arial;
-    font: 1rem;
-    
-   
-  }
-
-  
-    ul {
-    
-        list-style-type: none;
-        margin: 2px;
-        padding: 1px;
-        overflow: hidden;
-        
-    }
-    
-    li {
-        float: left;
-    }
-    
-    li a {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        color:black;
-        padding: 1em 1.5em;
-        position: relative;
-        text-align: left;
-      
-        text-decoration: none;
-        background-color:white;
-  box-shadow: 0 5px 0 grey;
-    
-    }
-    
-    li a:hover {
-
-        cursor: pointer;
-        background-color:grey;
-    }
-    li a:hover {
-
-        cursor: pointer;
-        background-color:grey;
-    }
-    
-    nav{
-            width: 100vw;
-       }
-    a {
-        display: block;
-        color:black;
-        padding: 1em 1.5em;
-        position: relative;
-        text-align: left;
-        
-        text-decoration: none;
-        background-color:white;
-        box-shadow: 0 5px 0 grey;
-    }
-    a:hover{
-        cursor: pointer;
-        background-color: grey;
-    }
-
-
-button{
   text-align: center;
-  border: 0;
-  padding: 0.25rem 0.5rem;
-  margin: 0.25rem;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      max-width: 100%;
+      }
   
-  font-size: 1rem;
-  line-height: 1.2;
-  border-radius: 0.25rem;
 
-  color:black;
-  background-color: white;
-  white-space: nowrap;
-  text-decoration: none;
+
+header{
+    background-color: black;
+
+}
+h1 {
+  background-color: black;
+  color: white;
+}
+
+.menu-select{ 
   
+  display: flex;
+ 
+  justify-content: center;
+  font-family: Arial;
+ 
+ 
+}
+
+
+  ul {
+  
+      list-style-type: none;
+      margin: 10px;
+      padding: 10px;
+      overflow: hidden;
+      
+  }
+  
+  li {
+      float: left;
+  }
+  
+  li a {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      color:black;
+      padding: 1em 1.5em;
+      position: relative;
+      text-align: left;
+    font-size:1.7rem;
+    margin-left:20px;
+      text-decoration: none;
+      background-color:white;
+box-shadow: 0 5px 0 grey;
+  
+  }
+  
+  li a:hover {
+
+      cursor: pointer;
+      background-color:grey;
+  }
+  li a:hover {
+
+      cursor: pointer;
+      background-color:grey;
+  }
+  
+  nav{
+          width: 100vw;
+     }
+  a {
+      display: block;
+      color:black;
+      padding: 1em 1.5em;
+      position: relative;
+      text-align: left;
+      
+      text-decoration: none;
+      background-color:white;
+      box-shadow: 0 5px 0 grey;
+  }
+  a:hover{
+      cursor: pointer;
+      background-color: grey;
+  }
+
+.page-header{
+
+font-size:3rem;
+
+}
+button{
+text-align: center;
+border: 0;
+padding: 0.25rem 0.5rem;
+margin: 0.25rem;
+
+font-size: 1rem;
+line-height: 1.2;
+border-radius: 0.25rem;
+
+color:black;
+background-color: white;
+white-space: nowrap;
+text-decoration: none;
+
 
 }
 
 .scrollnav {
-   
-    font: 1.5rem;
-    font-family: Arial;
-    color: black;
-    float: right;
-    width: 20%;
-  }
-  
-  
-  .scrollnav ul {
-    background-color:white;
-    padding: 1.5rem;
-    border-radius: 5px;
-  }
-  
-  .scrollnav li {
-    list-style: none;
-    border-bottom: 1px solid black;
-    margin-bottom: 0.75rem;
-    padding-bottom: 0.75rem;
-    
-  }
-  .scrollnav li:hover {
-
-    cursor: pointer;
-    background-color:grey;
-  }
-
-  #scrollbutton {
-  
-    visibility: hidden;
-    width: 5rem;
-    height: 3rem;
-    text-align: center;
-    border-radius: 1rem;
-    position: fixed;
-    bottom: 3rem;
-    right: 3rem;
-    display: inline-block;
-    background-color:white;
-    
-    transition: background-color .5s, 
-      opacity .7s, visibility .7s;
-    opacity: 0;
-   
-   
-  }
-  
-  .Topbtn{
-  position: fixed;
-   width: 2rem;
-   height: 2rem;
-   background: white;
-   bottom: 1rem;
-   right: 0.5rem;
  
-   text-decoration: none;
-   
-   line-height:1rem;
-   color: white;
-   font-size: 22px;
- }
-
-  #scrollbutton::after 
-  {
-    font-size: 3rem;
-    line-height: 50px;
-    font-family: Arial;
-    
-    color:black;
-    content: "\f077";
-  }
-
-  #scrollbutton:hover
-   {
-    cursor: pointer;
-    background-color: grey;
-  }
-  #scrollbutton:active
-   {
-    background-color:white;
-  }
-  #scrollbutton.show 
-  {
-    opacity: 1;
-    visibility: visible;
-  }
-
-
-footer{
-    padding: 1rem;
-            margin-top: 2rem;
-            text-align: left;
-            background:grey;
-            color: white;
+  font: 1.5rem;
+  font-family: Arial;
+  color: black;
+  float: right;
+  width: 20%;
 }
-.Topbtn{
+
+
+.scrollnav ul {
+  background-color:white;
+  padding: 1.5rem;
+  border-radius: 5px;
+}
+
+.scrollnav li {
+  list-style: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.75rem;
+  
+}
+.scrollnav li:hover {
+
+  cursor: pointer;
+  background-color:grey;
+}
+
+#scrollbutton {
+
+  visibility: hidden;
+  width: 5rem;
+  height: 3rem;
+  text-align: center;
+  border-radius: 1rem;
   position: fixed;
- width: 50px;
- height: 50px;
+  bottom: 3rem;
+  right: 3rem;
+  display: inline-block;
+  background-color:white;
+  
+  transition: background-color .5s, 
+    opacity .7s, visibility .7s;
+  opacity: 0;
+ 
+ 
+}
+
+.Topbtn{
+position: fixed;
+ width: 2rem;
+ height: 2rem;
  background: white;
- bottom: 40px;
- right: 50px;
+ bottom: 1rem;
+ right: 0.5rem;
 
  text-decoration: none;
- text-align: center;
- line-height: 50px;
+ 
+ line-height:1rem;
  color: white;
  font-size: 22px;
 }
+
+#scrollbutton::after 
+{
+  font-size: 3rem;
+  line-height: 50px;
+  font-family: Arial;
+  
+  color:black;
+  content: "\f077";
+}
+
+#scrollbutton:hover
+ {
+  cursor: pointer;
+  background-color: grey;
+}
+#scrollbutton:active
+ {
+  background-color:white;
+}
+#scrollbutton.show 
+{
+  opacity: 1;
+  visibility: visible;
+}
+
+
+footer{
+  padding: 1rem;
+          margin-top: 2rem;
+          text-align: left;
+          background:grey;
+          color: white;
+}
+.Topbtn{
+position: fixed;
+width: 50px;
+height: 50px;
+background: white;
+bottom: 40px;
+right: 50px;
+
+text-decoration: none;
+text-align: center;
+line-height: 50px;
+color: white;
+font-size: 22px;
+}
 @media (max-width: 768px) {
 
-  .menu-select {
-    flex-direction: column;
-    
-    }
+.menu-select {
+  flex-direction: column;
+  
+  }
 
 p{
-  font-size:0.8rem;
-  line-height:0.9rem
+font-size:0.8rem;
+line-height:0.9rem
 
 }
 header{
-  font-size:0.7rem
+font-size:0.7rem
 }
- h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6{
 font: 1rem;
-  text-align: center;
+text-align: center;
 }
 .Topbtn{
 position: fixed;
@@ -295,20 +301,20 @@ font-size: 22px;
 
 
 li {
-    float: left;
+  float: left;
 }
 
 li a {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    color:black;
-    padding: 0.5em 1.5em;
-    position: relative;
-    text-align: left;
-  
-    text-decoration: none;
-    background-color:white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color:black;
+  padding: 0.5em 1.5em;
+  position: relative;
+  text-align: left;
+
+  text-decoration: none;
+  background-color:white;
 box-shadow: 0 5px 0 grey;
 
 }
@@ -316,18 +322,18 @@ box-shadow: 0 5px 0 grey;
 
 
 nav{
-        width: 100vw;
-   }
+      width: 100vw;
+ }
 a {
-    display: block;
-    color:black;
-    padding: 0.5em 1em;
-    position: relative;
-    text-align: left;
-    font-size:0.9rem;
-    text-decoration: none;
-    background-color:white;
-    box-shadow: 0 5px 0 grey;
+  display: block;
+  color:black;
+  padding: 0.5em 1em;
+  position: relative;
+  text-align: left;
+  font-size:0.9rem;
+  text-decoration: none;
+  background-color:white;
+  box-shadow: 0 5px 0 grey;
 }
 
 article{
@@ -343,7 +349,7 @@ p{
 display: block;
 
 margin: 0;
-  
+
 letter-spacing: 2px;
 word-spacing: 2px;
 
@@ -353,6 +359,11 @@ padding: 1px;
 }
 
 }
+
+
+
+
+      
 
 
 
