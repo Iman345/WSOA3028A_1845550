@@ -35,7 +35,7 @@ p{
     
   letter-spacing: 2px;
   word-spacing: 2px;
-  
+  font-size:1.5rem;
   margin-right:20px;
   margin-bottom: 20px;
   padding: 5px;
@@ -133,7 +133,7 @@ box-shadow: 0 5px 0 grey;
 
 .page-header{
 
-font-size:3rem;
+font-size:2rem;
 
 }
 button{
@@ -312,7 +312,8 @@ li a {
   padding: 0.5em 1.5em;
   position: relative;
   text-align: left;
-
+  font-size:0.8rem;
+  margin-left:0rem;
   text-decoration: none;
   background-color:white;
 box-shadow: 0 5px 0 grey;
@@ -357,7 +358,10 @@ margin-right:1px;
 margin-bottom: 1px;
 padding: 1px;
 }
+.page-header{
+  font-size:1rem;
 
+}
 }
 
 
