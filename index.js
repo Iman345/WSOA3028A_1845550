@@ -22,23 +22,23 @@ document.getElementById('backButton').addEventListener('click', () => {
 });
 
 
-$(document).ready(function () {
-  $(window).scroll(function () {
-    if ($(this).scrollTop() > 100) {
-      $('.Topbtn').fadeIn();
-    } else {
-      $('.Topbtn').fadeOut();
-    }
-  });
+Topbutton = document.getElementById("Topbtn");
 
-  $('.Topbtn').click(function () {
-    $("html, body").animate({
-      scrollTop: 0
-    }, 100);
-      return false;
-  });
 
-});
+window.onscroll = function() {scrollupFunction()};
+
+function scrollupFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    Topbutton.style.display = "block";
+  } else {
+    Topbutton.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0; 
+}
+
 
 
 
