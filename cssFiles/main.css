@@ -197,7 +197,21 @@ button{
    
   }
   
-  
+  .Topbtn{
+  position: fixed;
+   width: 2rem;
+   height: 2rem;
+   background: white;
+   bottom: 1rem;
+   right: 0.5rem;
+ 
+   text-decoration: none;
+   
+   line-height:1rem;
+   color: white;
+   font-size: 22px;
+ }
+
   #scrollbutton::after 
   {
     font-size: 3rem;
@@ -231,31 +245,113 @@ footer{
             background:grey;
             color: white;
 }
-@media (max-width: 576px) {
+.Topbtn{
+  position: fixed;
+ width: 50px;
+ height: 50px;
+ background: white;
+ bottom: 40px;
+ right: 50px;
 
-    
+ text-decoration: none;
+ text-align: center;
+ line-height: 50px;
+ color: white;
+ font-size: 22px;
 }
 @media (max-width: 768px) {
 
-    .menu-select {
-        flex-direction: column;
-        font: 0.5rem;
-        }
-    body{
-        font: 0.5rem;
-    }
-    p{
-      font-size:1rem;
-      line-height:1rem
+  .menu-select {
+    flex-direction: column;
     
     }
-    header{
-      font-size:0.7rem
-    }
-     h1,h2,h3,h4,h5,h6{
-    font: 1rem;
-      text-align: center;
-  }
+
+p{
+  font-size:0.8rem;
+  line-height:0.9rem
+
+}
+header{
+  font-size:0.7rem
+}
+ h1,h2,h3,h4,h5,h6{
+font: 1rem;
+  text-align: center;
+}
+.Topbtn{
+position: fixed;
+width: 2rem;
+height: 2rem;
+background: white;
+bottom: 1rem;
+right: 0.5rem;
+
+text-decoration: none;
+
+line-height:1rem;
+color: white;
+font-size: 22px;
+}
+
+
+li {
+    float: left;
+}
+
+li a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color:black;
+    padding: 0.5em 1.5em;
+    position: relative;
+    text-align: left;
+  
+    text-decoration: none;
+    background-color:white;
+box-shadow: 0 5px 0 grey;
+
+}
+
+
+
+nav{
+        width: 100vw;
+   }
+a {
+    display: block;
+    color:black;
+    padding: 0.5em 1em;
+    position: relative;
+    text-align: left;
+    font-size:0.9rem;
+    text-decoration: none;
+    background-color:white;
+    box-shadow: 0 5px 0 grey;
+}
+
+article{
+display: flex;
+flex-direction: column;
+width: 90%;
+max-width: 600px;
+margin: 0 auto;
+padding: 0.5em 1em 1em;
+}
+p{
+
+display: block;
+
+margin: 0;
+  
+letter-spacing: 2px;
+word-spacing: 2px;
+
+margin-right:1px;
+margin-bottom: 1px;
+padding: 1px;
+}
+
 }
 
 
