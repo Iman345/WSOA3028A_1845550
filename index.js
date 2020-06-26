@@ -22,24 +22,23 @@ document.getElementById('backButton').addEventListener('click', () => {
 });
 
 
-var scrollbtn = $('#scrollbutton');
+$(document).ready(function () {
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 100) {
+      $('.Topbtn').fadeIn();
+    } else {
+      $('.Topbtn').fadeOut();
+    }
+  });
 
-$(window).scroll(function() 
-{
-  if ($(window).scrollTop() > 400) {
-    scrollbtn.addClass('show');
-  } 
-  
-  else {
-    scrollbtn.removeClass('show');
-  }
+  $('.Topbtn').click(function () {
+    $("html, body").animate({
+      scrollTop: 0
+    }, 100);
+      return false;
+  });
+
 });
-
-scrollbtn.on('click', function(up) {
-  up.preventDefault();
-  $('html, body').animate({scrollTop:0}, '400');
-});
-
 
 
 
