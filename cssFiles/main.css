@@ -265,6 +265,15 @@ line-height: 50px;
 color: white;
 font-size: 22px;
 }
+
+@media (max-width: 356px) {
+
+  .page-header{
+
+    font-size:0.7rem;
+    
+    }
+}
 @media (max-width: 768px) {
 
 .menu-select {
