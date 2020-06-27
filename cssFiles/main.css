@@ -63,7 +63,60 @@ h1 {
   color: white;
 }
 
+.menu-select{ 
+  
+  display: flex;
+ 
+  justify-content: center;
+  font-family: Arial;
+ 
+ 
+}
 
+
+  ul {
+  
+      list-style-type: none;
+      margin: 10px;
+      padding: 10px;
+      overflow: hidden;
+      
+  }
+  
+  li {
+      float: left;
+  }
+  
+  li a {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      color:black;
+      padding: 1em 1.5em;
+      position: relative;
+      text-align: left;
+    font-size:1.7rem;
+    margin-left:20px;
+      text-decoration: none;
+      background-color:white;
+box-shadow: 0 5px 0 grey;
+  
+  }
+  
+  li a:hover {
+
+      cursor: pointer;
+      background-color:grey;
+  }
+  li a:hover {
+
+      cursor: pointer;
+      background-color:grey;
+  }
+  
+  nav{
+          width: 100vw;
+     }
   a {
       display: block;
       color:black;
@@ -78,90 +131,6 @@ h1 {
   a:hover{
       cursor: pointer;
       background-color: grey;
-  }
-
-  .menu-select{ 
-  
-    display: flex;
-   
-    justify-content: center;
-    font-family: Arial;
-   
-   
-  }
-  
-  
-  
-    ul {
-    
-        list-style-type: none;
-       
-  }
-  
-  li {
-     float: left;
-    display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        color:black;
-    
-    Background-color:white;
-    display: block;
-    float: left;
-    padding: 1rem;
-    position: relative;
-    text-decoration: none;
-     font-size:1.7rem;
-      margin-left:20px;
-        text-decoration: none;
-        background-color:white;
-  box-shadow: 0 5px 0 grey;
-    transition-duration: 0.5s;
-  }
-    
-  li a {
-    color: black;
-  }
-  
-  li:hover,
-  li:focus-within {
-    background: grey;
-    cursor: pointer;
-  }
-  
-  li:focus-within a {
-    outline: none;
-  }
-  nav{
-            width: 100vw;
-       }
-  ul li ul {
-    background: grey;
-    visibility: hidden;
-    opacity: 0;
-    min-width: 2rem;
-    position: absolute;
-    transition: all 0.5s ease;
-    margin-top: 1rem;
-    right:0.5rem;
-    display: none;
-  }
-  
-  ul li:hover > ul,
-  ul li:focus-within > ul,
-  ul li ul:hover,
-  ul li ul:focus {
-    visibility: visible;
-    opacity: 1;
-    display: flex;
-     flex-direction: column;
-       
-    
-  }
-  
-  ul li ul li {
-    clear: both;
-    width: 100%;
   }
 
 .page-header{
