@@ -206,7 +206,7 @@ footer{
   }
   #Topbtn{
   position: fixed;
-  width: 2rem;
+  width: 1rem;
   height: 2rem;
   background: white;
   bottom: 1rem;
@@ -215,7 +215,7 @@ footer{
   text-decoration: none;
   
   line-height:1rem;
-  color: white;
+  color:black;
   font-size: 22px;
   }
   
@@ -307,8 +307,8 @@ text-align: center;
 }
 #Topbtn{
 position: fixed;
-width: 2rem;
-height: 2rem;
+width: 0.5rem;
+height: 1rem;
 background: white;
 bottom: 1rem;
 right: 0.5rem;
@@ -316,7 +316,7 @@ right: 0.5rem;
 text-decoration: none;
 
 line-height:1rem;
-color: white;
+color: black;
 font-size: 22px;
 }
 
@@ -385,13 +385,28 @@ padding: 1px;
 }
 }
 
-@media (max-width: 356px) {
+@media (max-width: 500px) {
 
   .page-header{
 
     font-size:0.7rem;
     
     }
+#Topbtn{
+position: fixed;
+width: 0.2rem;
+height: 0.5rem;
+background: white;
+bottom: 0.1rem;
+right:0.1rem;
+
+text-decoration: none;
+
+line-height:1rem;
+color:black;
+font-size: 22px;
+}
+    
 }
 
 
