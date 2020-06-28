@@ -92,7 +92,7 @@ document.querySelector(".quote").innerText = quranDetails.data.text;
             button.addEventListener("click", changeQuote);
           
            
-            changeQuote();
+       
     
 
 
