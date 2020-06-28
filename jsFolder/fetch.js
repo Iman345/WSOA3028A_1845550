@@ -48,6 +48,9 @@ document.querySelector(".quote").innerText = quranDetails.data.text;
           
         
         console.log(1);
+        document.getElementById('backButton').addEventListener('click', () => {
+            history.back();
+          });
 
 const btn = document.querySelector('button');
 btn.onclick = function() 
