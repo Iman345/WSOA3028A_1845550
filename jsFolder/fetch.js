@@ -22,22 +22,13 @@ const handlenames =(namedetails)=>{
     document.querySelector('p').innerText= namedetails.text;
 };*/
 
-/*fetch("http://api.alquran.cloud/v1/ayah/262")
+fetch("http://api.alquran.cloud/v1/ayah/262")
 .then((r) => r.json())
 .then((quran)=>{console.log(quran);
 
     handleQuran(quran)
     });
 const handleQuran = (quranDetails) => {
-document.querySelector("p").innerText = quranDetails.data.text;
-};*/
-
-fetch("https://warm-mesa-82751.herokuapp.com/")
-.then((r) => r.json())
-.then((anime)=>{console.log(anime);
-
-    handleanim(anime)
-    });
-const handleanim = (animDetails) => {
-document.querySelector("p").innerText = animDetails.data.text;
+document.querySelector(".quote").innerText = quranDetails.data.text;
 };
+
