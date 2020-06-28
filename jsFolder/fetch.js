@@ -15,9 +15,9 @@ fetch('https://reqres.in/api/users')
        r.data.map(user => {
            console.log(`${user.id}: ${user.first_name} ${user.last_name}`);
        });
-       handlenames(user)
+       handlenames(user.last_name)
 
    });
    const handlenames =(namedetails)=>{
-    document.querySelector('p').innerText= namedetails.data;
+    document.querySelector('p').innerText= namedetails.text;
 };
