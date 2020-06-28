@@ -49,7 +49,7 @@ document.querySelector(".quote").innerText = quranDetails.data.text;
         
         console.log(1);
 
-const btn = document.querySelector('.quotebutton');
+const btn = document.querySelector('button');
 btn.onclick = function() 
 {
     
