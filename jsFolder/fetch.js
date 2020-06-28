@@ -17,5 +17,5 @@ fetch('https://reqres.in/api/users')
        });
    });
    const handlenames =(namedetails)=>{
-    document.querySelector('p').innerText= namedetails.data;
+    document.querySelector('p').innerText= namedetails.first_name;
 };
