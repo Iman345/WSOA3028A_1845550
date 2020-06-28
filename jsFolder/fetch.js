@@ -6,5 +6,5 @@ handleQuran(quran)
 });
 
 const handleQuran = (quranDetails) => {
-document.querySelector("p").innerText = quranDetails.data;
+document.querySelector("p").innerText = quranDetails;
 };
