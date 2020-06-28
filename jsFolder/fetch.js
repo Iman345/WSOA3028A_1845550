@@ -72,9 +72,7 @@ document.querySelector(".quote").innerText = quranDetails.data.text;
     const handlequote = (quoteDetails) => {
         document.querySelector("p").innerText = quoteDetails.content;
         };
-        const handlequote = (quoteDetails) => {
-            document.querySelector(".author").innerText = quoteDetails.author;
-            };
+        
 
 
        
