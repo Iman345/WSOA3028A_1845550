@@ -36,7 +36,7 @@ document.querySelector(".quote").innerText = quranDetails.data.text;
     const quotebutton = document.querySelector("button");
     const quotetxt = document.querySelector("blockquote p");
     const author = document.querySelector("blockquote cite");
-    ChangeQuote();
+    
     
     quotebutton.addEventListener("click", ChangeQuote);
     async function ChangeQuote() 
@@ -53,7 +53,7 @@ document.querySelector(".quote").innerText = quranDetails.data.text;
         author.textContent = info.author;
         console.log(info.content);
       } 
-      
+      ChangeQuote();
     }
     
   
@@ -69,5 +69,8 @@ document.querySelector(".quote").innerText = quranDetails.data.text;
     })
     
     const handlequote = (quoteDetails) => {
-        document.querySelector("p").innerText = quoteDetails.text;
+        document.querySelector("blockquote p").innerText = quoteDetails.text;
         };
+
+
+       
