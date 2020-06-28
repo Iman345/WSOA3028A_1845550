@@ -29,5 +29,5 @@ fetch("http://api.alquran.cloud/v1/ayah/262")
     handleQuran(quran)
     });
 const handleQuran = (quranDetails) => {
-document.querySelector("p").innerText = quranDetails.data;
+document.querySelector("p").innerText = quranDetails.data.text;
 };
