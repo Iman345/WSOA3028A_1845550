@@ -73,24 +73,25 @@ document.querySelector(".quote").innerText = quranDetails.data.text;
         document.querySelector("p").innerText = quoteDetails.content+"-"+ quoteDetails.author;
         };*/
           
-            function changeQuote() {
-              
-                fetch('https://api.quotable.io/random')
-                .then(res => res.json())
-                .then(quote => {
-                  console.log(`${quote.content} —${quote.author}`)
-                  handlequote(quote)
-                })
-                
-                const handlequote = (quoteDetails) => {
-                    document.querySelector("p").innerText = quoteDetails.content+"-"+ quoteDetails.author;
-                    };
-              }
-            
-          
-           
-            button.addEventListener("click", changeQuote);
-          
+        
+        console.log(1);
+
+const btn = document.querySelector('button');
+btn.onclick = function() 
+{
+    
+    fetch('https://api.quotable.io/random')
+    .then(res => res.json())
+    .then(quote => {
+      console.log(`${quote.content} —${quote.author}`)
+      handlequote(quote)
+    })
+    
+    const handlequote = (quoteDetails) => {
+        document.querySelector("p").innerText = quoteDetails.content+"-"+ quoteDetails.author;
+        };
+   
+}
            
        
     
