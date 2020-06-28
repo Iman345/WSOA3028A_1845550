@@ -38,6 +38,6 @@ fetch("http://api.alquran.cloud/v1/ayah/2:255/en.asad")
     handleQuran(quran)
     });
 const handleQuran = (quranDetails) => {
-document.querySelector(".quote").innerText = quranDetails.data.text;
+document.querySelector(".english").innerText = quranDetails.data.text;
 };
 
