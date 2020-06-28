@@ -22,7 +22,7 @@ const handlenames =(namedetails)=>{
     document.querySelector('p').innerText= namedetails.text;
 };*/
 
-fetch("http://api.alquran.cloud/v1/ayah/255")
+fetch("http://api.alquran.cloud/v1/ayah/262")
 .then((r) => r.json())
 .then((quran)=>{console.log(quran);
 
