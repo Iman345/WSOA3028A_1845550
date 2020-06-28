@@ -34,10 +34,10 @@ document.querySelector("p").innerText = quranDetails.data.text;
 
 fetch("https://anime-chan.herokuapp.com/api/quotes/random")
 .then((r) => r.json())
-.then((anime)=>{console.log(anime);
+.then((anime)=>{console.log(`${quote}: ${character}`);
 
     handleanime(anime)
     });
 const handleanime = (animeDetails) => {
-document.querySelector("p").innerText = animeDetails.Array(1);
+document.querySelector("p").innerText = animeDetails.quote;
 };
