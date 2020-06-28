@@ -32,12 +32,12 @@ const handleQuran = (quranDetails) => {
 document.querySelector("p").innerText = quranDetails.data.text;
 };*/
 
-fetch("https://anime-chan.herokuapp.com/api/quotes/random")
+fetch("https://type.fit/api/quotes")
 .then((r) => r.json())
-.then((anime)=>{console.log(`${quote}: ${character}`);
+.then((quran)=>{console.log(quran);
 
-    handleanime(anime)
+    handleQuran(quran)
     });
-const handleanime = (animeDetails) => {
-document.querySelector("p").innerText = animeDetails.quote;
+const handleQuran = (quranDetails) => {
+document.querySelector("p").innerText = quranDetails.data.text;
 };
