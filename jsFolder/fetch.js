@@ -31,36 +31,9 @@ const handlenames =(namedetails)=>{
 const handleQuran = (quranDetails) => {
 document.querySelector(".quote").innerText = quranDetails.data.text;
 };*/
-/*document.addEventListener("DOMContentLoaded", () => {
+
   
-    const quotebutton = document.querySelector("button");
-    const quotetxt = document.querySelector("blockquote p");
-    const author = document.querySelector("blockquote cite");
-    
-    
-    quotebutton.addEventListener("click", ChangeQuote);
-    async function ChangeQuote() 
-    {
-      
-      const res = await 
-      
-      fetch("https://api.quotable.io/random");
-     
-      const info = await res.json();
-      if (res.ok) {
-       
-        quotetxt.textContent = info.content;
-        author.textContent = info.author;
-        console.log(info.content);
-      } 
-      ChangeQuote();
-    }
-    
-  
-    
-  });*
-  
-  */
+
 
   /*fetch('https://api.quotable.io/random')
     .then(res => res.json())
