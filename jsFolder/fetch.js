@@ -32,3 +32,13 @@ const handleQuran = (quranDetails) => {
 document.querySelector(".quote").innerText = quranDetails.data.text;
 };*/
 
+
+document.addEventListener("DOMContentLoaded", () =>
+ {
+  
+    const button = document.querySelector("button");
+    const quote = document.querySelector("blockquote p");
+    const cite = document.querySelector("blockquote cite");
+    console.log("Dom")
+ }
+)
