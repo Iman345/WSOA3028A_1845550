@@ -67,7 +67,7 @@ document.querySelector(".quote").innerText = quranDetails.data.text;
     .then(quote => {
       console.log(`${quote.content} —${quote.author}`)
     })
-    handlequote(quote.content)
+    
     const handlequote = (quoteDetails) => {
         document.querySelector("p").innerText = quoteDetails.text;
         };
