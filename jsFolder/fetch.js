@@ -5,6 +5,6 @@ fetch('https://reqres.in/api/users')
         console.log(`${user.id}: ${user.first_name} ${user.last_name}`);
     });
   const namehandle=(namedetails)=>{
-      document.querySelector("p").innerText=namedetails.first_name;
+      document.querySelector("p").innerText=namedetails.data;
   }  
 });
