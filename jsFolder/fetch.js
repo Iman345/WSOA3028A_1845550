@@ -32,12 +32,12 @@ const handleQuran = (quranDetails) => {
 document.querySelector("p").innerText = quranDetails.data.text;
 };*/
 
-fetch("https://type.fit/api/quotes")
+fetch("https://warm-mesa-82751.herokuapp.com/")
 .then((r) => r.json())
-.then((quran)=>{console.log(quran);
+.then((anime)=>{console.log(anime);
 
-    handleQuran(quran)
+    handleanim(anime)
     });
-const handleQuran = (quranDetails) => {
-document.querySelector("p").innerText = quranDetails.data.text;
+const handleanim = (animDetails) => {
+document.querySelector("p").innerText = animDetails.data.text;
 };
