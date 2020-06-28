@@ -22,7 +22,7 @@ const handlenames =(namedetails)=>{
     document.querySelector('p').innerText= namedetails.text;
 };*/
 
-fetch("http://api.alquran.cloud/v1/ayah/262")
+/*fetch("http://api.alquran.cloud/v1/ayah/262")
 .then((r) => r.json())
 .then((quran)=>{console.log(quran);
 
@@ -30,4 +30,14 @@ fetch("http://api.alquran.cloud/v1/ayah/262")
     });
 const handleQuran = (quranDetails) => {
 document.querySelector("p").innerText = quranDetails.data.text;
+};*/
+
+fetch("https://anime-chan.herokuapp.com/api/quotes/random")
+.then((r) => r.json())
+.then((anime)=>{console.log(anime);
+
+    handleanime(anime)
+    });
+const handleanime = (animeDetails) => {
+document.querySelector("p").innerText = animeDetails.data.text;
 };
