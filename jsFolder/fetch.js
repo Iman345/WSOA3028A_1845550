@@ -10,12 +10,14 @@ const handlenames =(namedetails)=>{
 }*/
 
 fetch('https://reqres.in/api/users')
-   .then(res => res.json())
-   .then(res => {
-       res.data.map(user => {
+   .then(r => r.json())
+   .then(r => {
+       r.data.map(user => {
            console.log(`${user.id}: ${user.first_name} ${user.last_name}`);
        });
+       handlenames(user)
+
    });
    const handlenames =(namedetails)=>{
-    document.querySelector('p').innerText= namedetails.first_name;
+    document.querySelector('p').innerText= namedetails.data;
 };
