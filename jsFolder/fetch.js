@@ -36,9 +36,9 @@ document.querySelector(".quote").innerText = quranDetails.data.text;
 document.addEventListener("DOMContentLoaded", () =>
  {
   
-    const button = document.querySelector("button");
-    const quote = document.querySelector("blockquote p");
-    const cite = document.querySelector("blockquote cite");
+    const quotebutton = document.querySelector("button");
+    const quotetxt = document.querySelector("blockquote p");
+    const author = document.querySelector("blockquote cite");
     console.log("Dom")
  }
 )
