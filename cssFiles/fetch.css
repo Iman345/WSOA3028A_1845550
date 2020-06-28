@@ -1,4 +1,5 @@
-body {
+
+  body {
  
     display: flex;
     justify-content: center;
@@ -8,3 +9,27 @@ body {
     color: white;
     background-color:black;
   }
+
+  
+.quotebox {
+  width: 90%;
+  color:white;
+  max-width: 800px;
+ font-family:Arial;
+}
+.quotebody {
+  padding: 50px;
+  margin-top:50px;
+  margin-bottom:50px;
+  font-family:Arial;
+}
+.quotebtn{
+  font-size:1rem;
+  font-family:Arial;
+  
+}
+
+.foot{
+  margin-top:10px;
+  font-size:1rem;
+}
