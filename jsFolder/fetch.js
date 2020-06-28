@@ -39,5 +39,5 @@ fetch("https://anime-chan.herokuapp.com/api/quotes/random")
     handleanime(anime)
     });
 const handleanime = (animeDetails) => {
-document.querySelector("p").innerText = animeDetails.data.text;
+document.querySelector("p").innerText = animeDetails.quote;
 };
