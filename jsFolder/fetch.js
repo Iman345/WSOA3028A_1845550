@@ -22,7 +22,16 @@ const handlenames =(namedetails)=>{
     document.querySelector('p').innerText= namedetails.text;
 };*/
 
-fetch("http://api.alquran.cloud/v1/ayah/262")
+fetch("http://api.alquran.cloud/v1/ayah/255")
+.then((r) => r.json())
+.then((quran)=>{console.log(quran);
+
+    handleQuran(quran)
+    });
+const handleQuran = (quranDetails) => {
+document.querySelector(".quote").innerText = quranDetails.data.text;
+};
+fetch("http://api.alquran.cloud/v1/ayah/2:255/en.asad")
 .then((r) => r.json())
 .then((quran)=>{console.log(quran);
 
