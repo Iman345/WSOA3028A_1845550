@@ -31,7 +31,7 @@ const handlenames =(namedetails)=>{
 const handleQuran = (quranDetails) => {
 document.querySelector(".quote").innerText = quranDetails.data.text;
 };*/
-document.addEventListener("DOMContentLoaded", () => {
+/*document.addEventListener("DOMContentLoaded", () => {
   
     const quotebutton = document.querySelector("button");
     const quotetxt = document.querySelector("blockquote p");
@@ -55,9 +55,15 @@ document.addEventListener("DOMContentLoaded", () => {
       } 
       
     }
-   
+    
   
     
-  });
+  });*
   
-  
+  */
+
+  fetch('https://api.quotable.io/random')
+    .then(res => res.json())
+    .then(quote => {
+      console.log(`${quote.content} —${quote.author}`)
+    })
