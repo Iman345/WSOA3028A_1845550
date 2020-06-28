@@ -70,7 +70,7 @@ document.querySelector(".quote").innerText = quranDetails.data.text;
     })
     
     const handlequote = (quoteDetails) => {
-        document.querySelector("p").innerText = quoteDetails.content+ quoteDetails.author;
+        document.querySelector("p").innerText = quoteDetails.content+"-"+ quoteDetails.author;
         };
   
 
