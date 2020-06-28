@@ -1,4 +1,11 @@
 fetch('https://reqres.in/api/users')
 .then((r)=>r.json())
-.then((p)=>console.log(p));
+.then((names)=>{console.log(names);
+
+handlenames(names)
+});
+
+const handlenames =(namedetails)=>{
+    document.querySelector('p').innerText= namedetails.data;
+}
    
