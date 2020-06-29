@@ -1,5 +1,4 @@
 
-
 html{
   font-family:Arial;
   
@@ -133,10 +132,27 @@ box-shadow: 0 5px 0 grey;
       background-color: grey;
   }
 
-ol   {
- font-size: 1rem;
- font-family: Arial;
+ol{
+   
+  
+    display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+  font-family: Arial;
+  font-size:1.5rem;
+   
+
 }
+
+ol li{
+ 
+   margin-left:10px;
+   margin-bottom:10px;
+  
+      
+  }
+
+
 
 
 .page-header{
@@ -389,6 +405,26 @@ padding: 1px;
   font-size:1rem;
 
 }
+  ol{
+   
+  
+    display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+  font-family: Arial;
+  font-size:0.8rem;
+   
+
+}
+
+ol li{
+  
+   margin-left:0px;
+   margin-bottom:10px;
+  
+      
+  } 
+
 }
 
 @media (max-width: 500px) {
@@ -412,7 +448,25 @@ line-height:1rem;
 color:black;
 font-size: 22px;
 }
-    
+   ol{
+   
+  
+    display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+  font-family: Arial;
+  font-size:0.8rem;
+   
+
+}
+
+ol li{
+  
+   margin-left:0px;
+   margin-bottom:10px;
+  
+      
+  } 
 }
 
 
