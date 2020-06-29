@@ -133,7 +133,10 @@ box-shadow: 0 5px 0 grey;
       background-color: grey;
   }
 
-
+ol   {
+ font-size: 1rem;
+ font-family: Arial;
+}
 
 
 .page-header{
